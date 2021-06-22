@@ -1,12 +1,17 @@
 Body { 
     background-color: khaki;
     
-    font-family: cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-.pizza {
+.center {
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid darkred;
+  }
+
 .pizza {
     /* box-model */
     padding: 1em;
@@ -16,7 +21,6 @@ Body {
     width: 20em;
     display: inline-block;
     min-height: 30em;
-
 }
 .small_pizza {
     background-color: tan;
@@ -34,7 +38,7 @@ Body {
 
 .large_pizza {
     background-color: sienna;
-    
+   
     
 }
 
@@ -58,4 +62,7 @@ body{
     body{
         background-color:darkred
     }
+    .pizzas {
+        display: flex;
     }
+}
