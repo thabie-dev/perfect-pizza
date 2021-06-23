@@ -47,10 +47,16 @@ Body {
     padding: 1em;
     border: 5px solid;
     margin: 1em;
-    border-radius: 1em;
-   
-    
+    border-radius: 1em;    
 }
+.center_contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    border: 3px solid darkred;
+  }
+
 @media (min-width:960px){
    
 body{
